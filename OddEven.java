@@ -1,7 +1,7 @@
 import java.lang.*;
 import java.util.*;
 
-public class New
+public class OddEven
 {
     public static void main(String args[])
     {
