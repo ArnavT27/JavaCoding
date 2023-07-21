@@ -1,7 +1,7 @@
 import java.lang.*;
 import java.util.*;
 
-public class New
+public class discountcheck
 {
     public static void main(String args[])
     {
