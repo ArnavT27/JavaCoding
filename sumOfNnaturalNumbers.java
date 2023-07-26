@@ -13,6 +13,6 @@ public class sumOfNnaturalNumbers
         {
             j=i+j;
         }
-        System.out.println(j);
+        System.out.println("Sum of first "+n+ " natural numbers is:"+j);
     }
 }
