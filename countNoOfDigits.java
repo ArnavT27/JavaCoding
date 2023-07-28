@@ -15,6 +15,6 @@ public class countNoOfDigits
             n=n/10;
             count++;
         }
-        System.out.println(count);
+        System.out.println("Number of digits are :"+count);
     }
 }
