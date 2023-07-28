@@ -1,7 +1,7 @@
 import java.lang.*;
 import java.util.*;
 
-public class New
+public class reverse
 {
     public static void main (String args[])
     {
