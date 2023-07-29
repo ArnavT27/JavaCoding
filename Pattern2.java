@@ -13,7 +13,7 @@ public class Pattern2
         {
             for (int j=1;j<=n;j++)
             {
-                System.out.format(" %2d ",count);
+                System.out.format(" %02d ",count);
                 count++;
             }
             System.out.println();
