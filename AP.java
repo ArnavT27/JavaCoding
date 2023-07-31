@@ -1,7 +1,7 @@
 import java.lang.*;
 import java.util.*;
 
-public class AP
+public class New
 {
     public static void main (String args[])
     {
@@ -12,9 +12,8 @@ public class AP
         int d=s.nextInt();
         System.out.println("Enter number of terms :");
         int n=s.nextInt();
-        int an=a+((n-1)*d);
         System.out.println("AP is:");
-        while(a<=an)
+        for (int i=1;i<=n;i++)
         {
             System.out.print(a+",");
             a=a+d;
