@@ -51,5 +51,13 @@ public class MatrixMultiplication
             }
             System.out.println();
         }
+        /*
+        Sorting OF arrays
+        String arr[]={"Java","java","arnav","python"};
+        java.util.Arrays.sort(arr);
+        for (int i=0;i<arr.length;i++)
+        {
+            System.out.println(arr[i]+" ");
+        } */
     }
 }
