@@ -29,7 +29,7 @@ public class DeletingAnElement
             A[i+1]=0;
         }
         System.out.println("New Array is:");
-        for (int i=0;i<A.length;i++)
+        for (int i=0;i<A.length-1;i++)
         {
             System.out.print(A[i]+" ");
         }
