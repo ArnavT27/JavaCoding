@@ -1,33 +1,38 @@
 import java.lang.*;
 import java.util.*;
 
-public class ArrayPractice1
+public class New
 {
-    public static void main(String args[])
+    static void max(int A[])
     {
-        Scanner s=new Scanner(System.in);
-        System.out.println("Enter the size of the array:");
-        int n=s.nextInt();
-        int A[]=new int[n];
-        System.out.println("Enter the elements of the array:");
-        for (int i=0;i<A.length;i++)
-        {
-            A[i]=s.nextInt();
-        }
         int max1,max2;
         max1=max2=A[0];
         for (int i=0;i<A.length;i++)
         {
             if (A[i]>max1)
             {
-                max2=max1;
-                max1=A[i];
+                max2 = max1;
+                max1 = A[i];
             }
             else if (A[i]>max2)
                 max2=A[i];
         }
-        System.out.println("Second maximum number is :"+max2);
-
+        System.out.println("Second largest number is:"+max2);
+    }
+    public static void main(String args[])
+    {
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter the size of the array:");
+        int size=s.nextInt();
+        int A[]=new int[size];
+        System.out.println("Enter the elements of the array:");
+        for (int i=0;i<A.length;i++)
+        {
+            A[i]=s.nextInt();
+        }
+        max(A);
+    }
+}
 
 
 
