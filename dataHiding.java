@@ -97,11 +97,11 @@ class Rectangle
     }
     public int area()
     {
-        return length*breadth;
+        return getLength()*getBreadth();
     }
     public int perimeter()
     {
-        return 2*(length+breadth);
+        return 2*(getLength()+getBreadth());
     }
 }
 
