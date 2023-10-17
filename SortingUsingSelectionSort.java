@@ -14,6 +14,7 @@ public class SortingUsingSelectionSort.java
                 if(arr[smallest]>arr[j])
                 {
                   // ascending order sorting using selection sort
+                  // for descending order sorting just change if condition to (arr[smallest]<arr[j])
                     smallest=j;
                 }
             }
