@@ -35,6 +35,7 @@ public class SumOfNTermsUsingRecursion
         }
         sum = sum + n;
         printNum(sum,n + 1, num);
+        System.out.println(n);
     }
     public static void main(String args[])
     {
